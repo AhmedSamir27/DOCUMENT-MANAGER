@@ -1,0 +1,13 @@
+/* These directives require Tailwind CSS processing. 
+   Make sure your build setup includes Tailwind via PostCSS. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Inter, system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
